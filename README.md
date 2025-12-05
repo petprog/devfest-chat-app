@@ -1317,7 +1317,7 @@ final firebaseAuthDataSourceProvider = Provider<FirebaseAuthDataSource>((ref) {
 
 ### data/repositories/auth_repository_impl.dart
 
-```
+```dart
 import '../../domain/entities/user.dart';
 import '../../domain/repositories/auth_repository.dart';
 import '../datasources/firebase_auth_datasource.dart';
@@ -1346,7 +1346,7 @@ class AuthRepositoryImpl implements AuthRepository {
 
 ### data/repositories/chat_repository_impl.dart
 
-```
+```dart
 import 'package:chat_app/data/datasources/firebase_auth_datasource.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
